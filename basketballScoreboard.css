@@ -2,6 +2,10 @@
     font-family: 'timerFont';
     src: url(CursedTimerUlil-Aznm.ttf);
 }
+.container {
+    display: flex;
+    justify-content: space-evenly
+}
 
 body
 {

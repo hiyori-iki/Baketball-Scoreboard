@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="basketballScoreboard.css">
 </head>
 <body>
-    <div class="scoreBoard">
-         <link rel="stylesheet" href="basketballScoreboard.css">
-         <h1>HOME &nbsp; &nbsp; GUEST</h1>
-         <button id="Home">0</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <button id="Guest">0</button> <br>
-         <br>
-        <button>+1</button> <button>+2</button> <button>+3</button>  &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp;  
-        <button>+1</button> <button>+2</button> <button>+3</button>
+    <div class="container">
+        <div>
+            <h1>HOME</h1>
+            <button id="Home">0</button> <br> <br>
+            <button onclick="increment(1,'Home')">+1</button> <button onclick="increment(2,'Home')">+2</button> <button onclick="increment(3,'Home')">+3</button>
+        </div>
+        <div>
+            <h1>GUEST</h1>
+            <button id="Guest">0</button> <br> <br>
+            <button onclick="increment(1,'Guest')">+1</button> <button onclick="increment(2,'Guest')">+2</button> <button onclick="increment(3,'Guest')">+3</button>
+        </div>
     </div>
+    <script src="basketballScoreboard.js"></script>
 </body>
 </html>
