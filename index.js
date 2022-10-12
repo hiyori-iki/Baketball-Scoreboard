@@ -1,9 +1,6 @@
 let countHome=0
 let countGuest=0
-let x
-let idname
-let homeScore;
-let guestScore;
+let x,idname,homeScore,guestScore;
 function increment(x,idname)
 {
     if(idname=="Home")
